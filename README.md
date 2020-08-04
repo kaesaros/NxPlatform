@@ -1,4 +1,4 @@
-# NxPlatform
+# NxPlatform ( Next .Net Platform) 
 
 ## Client (화면 프레젠테이션)
   ### 인증
