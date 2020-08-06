@@ -1,0 +1,41 @@
+
+가이드 
+
+인수인계성 : 신규 멤버가 빠르게 개발 Performance를 보일 수 있는 지에 대한 Factor
+변경용이성 : 빠르게 쉽게 변겨 
+견고성     : 변경으로 인한 장애/오류 발생 가능성을 식별 
+효율성     : 코드 내의 성능 저하 요소를 식별
+보안성     : 보안 위험이 있는 소스코드 식별
+
+https://www.it-cisq.org/standards/code-quality-standards/
+https://www.it-cisq.org/
+https://www.it-cisq.org/use-cases/devops-code-quality.htm
+https://www.it-cisq.org/software-certification/CISQ-Conformance-Assessment-Method-Quality-Characteristic-Measures.pdf
+
+
+1. Avoid direct access to Database Tables.csv
+2. Close the outermost stream ASAP 
+3. Call base.Dispose() or MyBase.Finalize() in the finally block of Dispose(bool) methods.csv
+4. Provide a private default Constructor for utility Classes.csv
+5. Declare as Static all methods not using instance members.csv
+6. The exception Exception should never been thrown. Always Subclass Exception and throw the subclassed Classes.csv
+7. Avoid doing select on Datatable in loop.csv
+8. Avoid String concatenation in loops.csv
+9. Avoid Tables without Primary Key.csv
+10. Avoid SELECT ALL queries.csv
+11. Avoid non-indexed SQL queries.csv
+12. Avoid redundant indexes.csv
+13. Avoid declaring public Fields.csv
+14. Avoid using the GROUP BY clause.csv
+15. Avoid using dynamic SQL in SQL Artifacts.csv
+16. Avoid file path manipulation vulnerabilities.csv
+
+Private Fields naming convention.csv
+Avoid having multiple Artifacts inserting data on the same SQL Table.csv
+
+Avoid using dynamic SQL in SQL Artifacts.csv
+Avoid using the GROUP BY clause.csv
+Call 'base.Dispose()' or 'MyBase.Finalize()' in the  finally block of 'Dispose(bool)' methods.csv
+Close the outermost stream ASAP.csv
+Declare as Static all methods not using instance members.csv
+
