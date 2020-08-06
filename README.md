@@ -26,16 +26,16 @@
   * ### WebApp (Cross Browser App)
       * #### C# ASP.NET WebForm
       * #### C# ASP.NET MVC 
-        * #### C# ASP.NET Blazor Server 
+      * #### C# ASP.NET Blazor Server 
       * #### Javascript Nexacro 
       * #### Javascript WebSquare
   * ### WinApp (Windows App)
        * #### C# WinForm
        * #### C# WPF
   * ### MobApp (Hybrid NativeApp / Hybrid MobWebApp)
-        * #### C# ASP.NET Blazor WASM
-        * #### Swift IOS Native Wrapper
-        * #### Kotlin Android Native Wrapper
+       * #### C# ASP.NET Blazor WASM
+       * #### Swift IOS Native Wrapper
+       * #### Kotlin Android Native Wrapper
   * ### DaemonApp (Cross OS Agent App)
       * #### C# Windows Service
       * #### C# Linux Daemon
