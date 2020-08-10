@@ -94,7 +94,7 @@
     - [ ] Side Driven방식
     - [ ] Top & Side Driven 방식
 
-  - **UI Component Wrapper
+  - **UI Component Wrapper**
     - Win
     - Web
     - [ ] IBSheet 기본 적용
@@ -125,7 +125,7 @@
   - **DaemonApp (CrossOS Active Agent App)**
     - [ ] C# Windows Service
     - [ ] C# Linux Daemon
-  - **AdaptorApp (Windows Server Passive App)
+  - **AdaptorApp (Windows Server Passive App)**
     - [ ] C# Console
 
     
@@ -169,9 +169,9 @@
   - Playbook Execution
 
 ### 주요형태
-  - [] **C# Application Controller**
-  - [] **Nexacro Controller**
-  - [] **WebSquare Controller**
+  - []**C# Application Controller**
+  - []**Nexacro Controller**
+  - []**WebSquare Controller**
 
 ### 필수산출물
   - **Coding Pattern**   
