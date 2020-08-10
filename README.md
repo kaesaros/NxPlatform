@@ -25,23 +25,23 @@
 
 ## Client (Presentation / Bot App)
 ### 공통요건  
-   * 인증
+   - **인증**
       *  [ ] SSO/SLO 인증 연계     
-   * 자격증명
+   - **자격증명**
       *  [ ] HR / Account / Role / Permission 검증 
-   * UI 프레임워크
+   - **UI 프레임워크**
       *  [ ] VIEW 삽입
       *  [ ] URL REWRITE
       *  [ ] PARAMETER INJECTION
       *  [ ] Single / Mulity Data CRUD 처리 UX
       
-   * SSL/TLS1.3 적용
-   * 시큐어코딩/모의해킹 대응
-   * UI 컴퍼넌트 코드 라이브러리 
+   - **SSL/TLS1.3 적용**
+   - 시큐어코딩/모의해킹 대응
+   - UI 컴퍼넌트 코드 라이브러리 
       *  [ ] Best Practice 
       *  [ ] Case Study 
       *  [ ] Usage Guide
-   * CI/CD 자동화 
+   - CI/CD 자동화 
 
 
 ### 공통구성
