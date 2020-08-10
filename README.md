@@ -62,7 +62,7 @@
      - VIEW 삽입
      - URL REWRITE
      - PARAMETER INJECTION
-     - Single / Mulity Data CRUD 처리 UX
+     - Single / Mulity Data CRUD UX FLOW
      - [상세보기]()
      
    - **UI 컴퍼넌트 코드 라이브러리** 
@@ -78,14 +78,14 @@
          - System 
          - ApplicationBar 
          - NavBar 
-         - ProgramDossierArea
-  *  #### UI Frame Layout  
-      * [ ] Top Driven 방식
-      * [ ] Side Driven방식
-      * [ ] Top & Side Driven 방식
-  *  #### UI Component Design
-  *  #### UX Behavior PATTERN    
-  *  #### UI Component (Win/Web/Mob)
+         - Program/DossierArea
+   - **UI Frame Layout**  
+    * [ ] Top Driven 방식
+    * [ ] Side Driven방식
+    * [ ] Top & Side Driven 방식
+  - **UI Component Design**
+  - **UX Behavior PATTERN**    
+  - **UI Component (Win/Web/Mob)
       * [ ] IBSheet 기본 적용
 
   
