@@ -1,46 +1,74 @@
 
 # NxPlatform ( Next .Net Platform) 
+## .Net Framework 버전 호환
+  * 4.X ~ 4.8
+  
+## 인프라
+  * OS   : Windows Server 201X
+  * DBMS : MSSQL 201X
+  * IDE  : VisualStudio 201X
+
+## 형상관리 
+  * GIT
+  * GITHUB / TFS
+  
+## 빌드/배포 자동화
+  * JENKINS CI/CD 
+
+---
 
 ## Client (Presentation / Bot App)
 ### 공통요건  
-   *  #### 인증
+   * 인증
       *  [ ] SSO/SLO 인증 연계     
-   *  #### 자격증명
+   * 자격증명
       *  [ ] HR / Account / Role / Permission 검증 
+   * UI 프레임워크
+      *  [ ] VIEW 삽입
+      *  [ ] URL REWRITE
+      *  [ ] PARAMETER INJECTION
+      *  [ ] Single / Mulity Data CRUD 처리 UX
+      
+   * SSL/TLS1.3 적용
+   * 시큐어코딩/모의해킹 대응
+   * UI 컴퍼넌트 코드 라이브러리 
+      *  [ ] Best Practice 
+      *  [ ] Case Study 
+      *  [ ] Usage Guide
+   * CI/CD 자동화 
+
 
 ### 공통구성
-  *  #### Launcher    
+  *  #### UI Launcher    
       *  ##### Navigation  
-         *  System
-         *  ApplicationBar 
-         * NavBar
-         * ProgramArea
+         * System Definition
+         * ApplicationBar Definition
+         * NavBar Definition
+         * ProgramArea Definition
   *  #### UI Frame Layout  
-      * [ ] Top Driven 
-      * [ ] Side Driven
-      * [ ] Top & Side Driven    
-  *  #### UI Component Design / Usage Guide
+      * [ ] Top Driven 방식
+      * [ ] Side Driven방식
+      * [ ] Top & Side Driven 방식
+  *  #### UI Component Design
   *  #### UX Behavior PATTERN    
-  *  #### WebUI Component
-      * [ ] IBSheet     
-  *  #### WinUI Component
-      * [ ] IBSheet             
+  *  #### UI Component (Win/Web/Mob)
+      * [ ] IBSheet 기본 적용
 
   
 ### 어플리케이션타입
-  * ### WebApp (Cross Browser App)
-      * #### C# ASP.NET WebForm
-      * #### C# ASP.NET MVC 
-      * #### C# ASP.NET Blazor Server 
-      * #### Javascript Nexacro 
-      * #### Javascript WebSquare
-  * ### WinApp (Windows App)
-       * #### C# WinForm
-       * #### C# WPF
-  * ### MobApp (Hybrid NativeApp / Hybrid MobWebApp)
-       * #### C# ASP.NET Blazor WASM
-       * #### Swift IOS Native Wrapper
-       * #### Kotlin Android Native Wrapper
+  * #### WebApp (Cross Browser App)
+      * [ ] C# ASP.NET WebForm
+      * [ ] C# ASP.NET MVC 
+      * [ ] C# ASP.NET Blazor Server 
+      * [ ] Javascript Nexacro 
+      * [ ] Javascript WebSquare
+  * #### WinApp (Windows App)
+       * [ ] C# WinForm
+       * [ ] C# WPF
+  * #### MobApp (Hybrid NativeApp / Hybrid MobWebApp)
+       * [ ] C# ASP.NET Blazor WASM
+       * [ ] Swift IOS Native Wrapper
+       * [ ] Kotlin Android Native Wrapper
   * ### DaemonApp (Cross OS Agent App)
       * #### C# Windows Service
       * #### C# Linux Daemon
@@ -64,21 +92,23 @@
 
 ## FrontEnd (Presentation Controller)
 ### 공통요건  
+  * #### External GateWay 서비스
+    * [ ] Load Balancing Avail
   * #### Session
     * [ ] Stateless
     * [ ] State full
-* #### Auth Token
-* #### Message Format
+  * #### Auth Token
+  * #### Message Format
     * [ ] JSON
     * [ ] XML
     * [ ] Protocol buffer
-    * [ ]     Message Pack
-    * [ ]     Binary Stream
+    * [ ] Message Pack
+    * [ ] Binary Stream
     
 ### 공통구성
-   * #### Data Access Execution
-   * #### Business Logic  Execution
-   * #### Playbook Execution
+   * Data Access Execution
+   * Business Logic  Execution
+   * Playbook Execution
 
 ### 컨트롤러타입
   * #### C# Application Controller
@@ -93,19 +123,24 @@
   * [ ] Do & Not Do
 
   
-  
 ---  
 
 ## BackEnd  (비지니스 서비스)
 ### 공통요건 
-  * #### Session
-    * [ ] Stateless
-    * [ ] State full
-* #### Auth Token
-* #### 메시지직렬화타입
-* #### 메시지전송타입
-* #### 메시지전송프로토콜
-* 디버깅 및 추적 방안
+  * DOCKER 컨테이너 기반
+  * 함수형 프로그래밍 패턴 
+  * Service Mashup
+  * Service Router
+  * Load Balancing Avail
+    * [ ] Stateless  
+  * Platform API  
+  * Auth Token
+  * 메시지
+    * 직렬화타입
+  * 메시지전송타입
+  * 메시지전송프로토콜
+  * 디버깅 및 추적 방안
+
 ### 공통구성
 *  #### Role & Permission 
 
@@ -172,14 +207,24 @@
 
 ## Business Process  Playbook ( Coded & Play 방식 업무 처리)
 ### 공통요건 
+    * 함수형 프로그래밍
+    
+
 ### 공통구성
+    * [ ] Process Mesh
+
 ### 플레이북타입
+    * DataAccess
+    * Business Process 
+    * CLI / API / UI Execute
+
 ### Code Qualify  & Secure
-  * [ ] Core API Unit Test
+  * [ ] Unit Test
   * [ ] Coding Pattern   
   * [ ] Naming Convention  
   * [ ] Secure Coding 
   * [ ] Do & Not Do
+  
   
 ## RealTimeMessageQue (실 이벤트 메시지 교환)
 ### 공통요건 
@@ -216,9 +261,7 @@
 ---
 
 ## Interface (인터페이스)
-
-  ### EAI (SolutionName)
-  
+  ### EAI (SolutionName)  
   ### PEAR
 *  #### SAP RFC
 *  #### DB 
@@ -235,9 +278,10 @@
 
 ---
 
-
-  
+## CI/CD Automation 
 
    
 
 
+
+*  [ ] VIEW 삽입\
