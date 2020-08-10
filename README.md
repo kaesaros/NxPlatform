@@ -1,16 +1,22 @@
 
 # NxPlatform ( Next .Net Platform) 
 ## .Net Framework 버전 호환
-  * 4.X ~ 4.8
+  * [ ].NET FRAMEWORK 4.X ~ 4.8
+  * [ ].NET Core 3.1
+  * [ ].NET 5
   
 ## 인프라
-  * OS   : Windows Server 201X
-  * DBMS : MSSQL 201X
-  * IDE  : VisualStudio 201X
+  * OS   
+    * [ ] Windows Server 201X
+  * DBMS 
+    * [ ] MSSQL 201X
+  * IDE  
+    * [ ] VisualStudio 201X
 
 ## 형상관리 
   * GIT
-  * GITHUB / TFS
+    * [ ] GITHUB 
+    * [ ] TFS
   
 ## 빌드/배포 자동화
   * JENKINS CI/CD 
