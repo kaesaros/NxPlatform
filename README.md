@@ -1,13 +1,13 @@
 
-# NxPlatform
+# NxPlatform Requiment
 **Next .Net Platform**
 
-## .Net Framework 버전 호환
+## .Net Framework 버전 호환 요건
   * [ ] .NET FRAMEWORK 4.X ~ 4.8
   * [ ] .NET Core 3.1
   * [ ] .NET 5
   
-## 인프라
+## 인프라 요건
   * OS   
     * [ ] Windows Server 201X
   * DBMS 
@@ -15,15 +15,15 @@
   * IDE  
     * [ ] VisualStudio 201X
 
-## 형상관리 
+## 형상관리 요건
   * GIT
     * [ ] GITHUB 
     * [ ] TFS
   
-## 빌드/배포 자동화
+## 빌드/배포 자동화 방안
   * JENKINS CI/CD 
 
-## 핵심도출요소
+## 핵심도출과제
    - **개발생산성 확보방안**      
       - 인수인계성 제시
         - 신규 멤버가 빠르게 개발 Performance를 보일 수 있는 지에 대한 Factor
@@ -52,8 +52,11 @@
       - [상세보기]()         
         - SSL/TLS1.3 적용
         - 시큐어코딩/모의해킹 대응     
+
 ---
-# NxPlatform Layer  Requiment
+
+# NxPlatform Layer
+
 ## Client (Presentation / Bot App) Layer
 ### 주요요건  
    - **인증 및 자격증명**
