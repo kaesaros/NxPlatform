@@ -1,5 +1,7 @@
 
-# NxPlatform ( Next .Net Platform) 
+# NxPlatform 
+**Next .Net Platform**
+
 ## .Net Framework 버전 호환
   * [ ] .NET FRAMEWORK 4.X ~ 4.8
   * [ ] .NET Core 3.1
@@ -51,7 +53,7 @@
         - SSL/TLS1.3 적용
         - 시큐어코딩/모의해킹 대응     
 ---
-
+# NxPlatform Layer 
 ## Client (Presentation / Bot App) Layer
 ### 주요요건  
    - **인증 및 자격증명**
@@ -64,7 +66,7 @@
      - PARAMETER INJECTION     
      - [상세보기]()
      
-   - **UX 패턴 **     
+   - **UX 패턴**     
      - Single / Mulity Data CRUD UX FLOW   
      - [상세보기]()
      
@@ -76,60 +78,65 @@
        
 
 ### 주요구성요소
-   - **UI Launcher**
-     -  Navigation  
-         - System 
-         - ApplicationBar 
-         - NavBar 
-         - Program/DossierArea
-         - [상세보기]()   
-   - **UI Frame Layout**  
+  - **UI Launcher**
+    - Navigation  
+      - [상세보기]()   
+      - System 
+      - ApplicationBar 
+      - NavBar 
+      - Program/DossierArea
+         
+  - **UI Frame Layout**  
     - [ ] Top Driven 방식
     - [ ] Side Driven방식
     - [ ] Top & Side Driven 방식
-  - **UI Component Design**
-  - **UX Behavior PATTERN**    
-  - **UI Component (Win/Web/Mob)
-      * [ ] IBSheet 기본 적용
 
+  - **UI Component Wrapper
+    - Win
+    - Web
+    - [ ] IBSheet 기본 적용
+    - Mob
+    
+  - **UI Component Design**
+    - [ ] 구성 및 디자인 가이드
+    
+  - **UX Behavior Patern**    
+    - [ ] 사용자 경험 조작 동선
+    
+    
   
 ### 어플리케이션타입
-  * #### WebApp (Cross Browser App)
-      * [ ] C# ASP.NET WebForm
-      * [ ] C# ASP.NET MVC 
-      * [ ] C# ASP.NET Blazor Server 
-      * [ ] Javascript Nexacro 
-      * [ ] Javascript WebSquare
-  * #### WinApp (Windows App)
-       * [ ] C# WinForm
-       * [ ] C# WPF
-  * #### MobApp (Hybrid NativeApp / Hybrid MobWebApp)
-       * [ ] C# ASP.NET Blazor WASM
-       * [ ] Swift IOS Native Wrapper
-       * [ ] Kotlin Android Native Wrapper
-  * ### DaemonApp (Cross OS Agent App)
-      * #### C# Windows Service
-      * #### C# Linux Daemon
-  * ### AdaptorApp ()
-      * #### C# Windows Console
+  - **WebApp (Cross Browser App)**
+    - [ ] C# ASP.NET WebForm
+    - [ ] C# ASP.NET MVC 
+    - [ ] C# ASP.NET Blazor Server 
+    - [ ] Javascript Nexacro 
+    - [ ] Javascript WebSquare
+  - **WinApp (Windows App)**
+    - [ ] C# WinForm
+    - [ ] C# WPF
+  - **MobApp (Hybrid NativeApp / Hybrid MobWebApp)**
+    - [ ] C# ASP.NET Blazor WASM
+    - [ ] Swift IOS Native Wrapper
+    - [ ] Kotlin Android Native Wrapper
+  - **DaemonApp (CrossOS Active Agent App)**
+    - [ ] C# Windows Service
+    - [ ] C# Linux Daemon
+  - **AdaptorApp (Windows Server Passive App)
+    - [ ] C# Console
 
-  * ### DEVOPS AUTOMATION 
-      * [ ]  UPDATER
-      * [ ]  DEPLOY
-      * [ ]  INSTALLER 
     
-### Code Qualify  & Secure
- [상세보기](https://github.com/kaesaros/NxPlatform/blob/master/CodeQualify.txt)  
- * [ ] Coding Pattern   
- * [ ] Naming Convention  
- * [ ] Secure Coding 
- * [ ] Do & Not Do
-
-
-
+### Qualify  & Secure
+  - **Coding Pattern**   
+    - Do & Not Do
+  - **Naming Convention**
+    - Do & Not Do
+  - **Secure Coding** 
+    - Do & Not Do 
+    
 ---
 
-## FrontEnd (Presentation Controller)
+## FrontEnd (Presentation Controller) Layer
 ### 공통요건  
   * #### External GateWay 서비스
     * [ ] Load Balancing Avail
