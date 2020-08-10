@@ -21,7 +21,7 @@
 ## 빌드/배포 자동화
   * JENKINS CI/CD 
 
-## 5대 방안
+## 핵심도출요소
    - **개발생산성 확보방안**      
       - 인수인계성 제시
         - 신규 멤버가 빠르게 개발 Performance를 보일 수 있는 지에 대한 Factor
@@ -34,30 +34,29 @@
       
    - **기능안정성 식별방안**      
       - 견고성 제시
-        - 변경으로 인한 장애/오류 발생 가능성을 식별 가능 방안
+        - 변경으로 인한 장애/오류 발생 가능성을 식별 가능 Factor
       - [상세보기]()         
       
    - **처리성능 식별방안**      
       - 효율성 제시
-        - 코드 내의 성능 저하 요소 식별 및 해소 방안
+        - 코드 내의 성능 저하 요소 식별 및 해소 Factor
       - [상세보기]()
       
    - **취약 보안(취약성)성 대응 방안**
       - 보안성 제시
-        - 보안 위험이 있는 아키텍쳐 식별 및 해소 방안
-        - 보안 위험이 있는 소스코드 식별 및 해소 방안
-        - 보안 위험이 있는 서버 취약성 식별 및 해소 방안
+        - 보안 위험이 있는 아키텍쳐 식별 및 해소 Factor
+        - 보안 위험이 있는 소스코드 식별 및 해소 Factor
+        - 보안 위험이 있는 서버 취약성 식별 및 해소 Factor
       - [상세보기]()         
         - SSL/TLS1.3 적용
         - 시큐어코딩/모의해킹 대응     
 ---
 
-## Client (Presentation / Bot App)
-### 공통요건  
+## Client (Presentation / Bot App) Layer
+### 주요요건  
    - **인증 및 자격증명**
       -  SSO/SLO 인증 연계 
-      -  HR / Account / Role / Permission 검증 
- 
+      -  HR / Account / Role / Permission 검증  
       
    - **UI 프레임워크**
      - VIEW 삽입
@@ -73,13 +72,13 @@
       - [상세보기]()   
 
 
-### 공통구성
-  *  #### UI Launcher    
-      *  ##### Navigation  
-         * System Definition
-         * ApplicationBar Definition
-         * NavBar Definition
-         * ProgramArea Definition
+### 주요구성요소
+   - **UI Launcher**
+     -  Navigation  
+         - System 
+         - ApplicationBar 
+         - NavBar 
+         - ProgramDossierArea
   *  #### UI Frame Layout  
       * [ ] Top Driven 방식
       * [ ] Side Driven방식
