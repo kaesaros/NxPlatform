@@ -61,16 +61,19 @@
    - **UI 프레임워크**
      - VIEW 삽입
      - URL REWRITE
-     - PARAMETER INJECTION
-     - Single / Mulity Data CRUD UX FLOW
+     - PARAMETER INJECTION     
+     - [상세보기]()
+     
+   - **UX 패턴 **     
+     - Single / Mulity Data CRUD UX FLOW   
      - [상세보기]()
      
    - **UI 컴퍼넌트 코드 라이브러리** 
-      - Best Practice 
-      - Case Study 
-      - Usage Guide
-      - [상세보기]()   
-
+     - Usage Guide
+     - [상세보기]()   
+       - Best Practice 
+       - Case Study 
+       
 
 ### 주요구성요소
    - **UI Launcher**
@@ -81,9 +84,9 @@
          - Program/DossierArea
          - [상세보기]()   
    - **UI Frame Layout**  
-    * [ ] Top Driven 방식
-    * [ ] Side Driven방식
-    * [ ] Top & Side Driven 방식
+    - [ ] Top Driven 방식
+    - [ ] Side Driven방식
+    - [ ] Top & Side Driven 방식
   - **UI Component Design**
   - **UX Behavior PATTERN**    
   - **UI Component (Win/Web/Mob)
