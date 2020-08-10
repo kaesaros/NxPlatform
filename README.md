@@ -81,6 +81,7 @@
       * [ ]  INSTALLER 
     
 ### Code Qualify  & Secure
+ [상세보기](https://github.com/kaesaros/NxPlatform/blob/master/CodeQualify.txt)  
  * [ ] Coding Pattern   
  * [ ] Naming Convention  
  * [ ] Secure Coding 
