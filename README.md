@@ -79,6 +79,7 @@
          - ApplicationBar 
          - NavBar 
          - Program/DossierArea
+         - [상세보기]()   
    - **UI Frame Layout**  
     * [ ] Top Driven 방식
     * [ ] Side Driven방식
