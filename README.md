@@ -169,9 +169,11 @@
   - Playbook Execution
 
 ### 주요형태
-  - []**C# Application Controller**
-  - []**Nexacro Controller**
-  - []**WebSquare Controller**
+  - **C# Application Controller**
+  
+  - **기타**
+    - **Nexacro Controller**
+    - **WebSquare Controller**
 
 ### 필수산출물
   - **Coding Pattern**   
