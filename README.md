@@ -60,8 +60,9 @@
 ## Client (Presentation / Bot App) Layer
 ### 주요요건  
    - **인증 및 자격증명**
-      -  SSO/SLO 인증 연계 
-      -  HR / Account / Role / Permission 검증  
+      - SSO/SLO 인증 연계 
+      - HR / Account / Role / Permission 검증  
+      - 인증토큰 유지
       
    - **UI 프레임워크**
      - VIEW 삽입
@@ -96,10 +97,14 @@
 
   - **UI Component Wrapper**
     - Win
+      - [ ] Telerik
+      - [ ] Devexpress
     - Web
-    - [ ] IBSheet 기본 적용
+      - [ ] IBSheet 기본 적용      
     - Mob
-    
+      - IOS
+      - Android
+      
   - **UI Component Design**
     - [ ] 구성 및 디자인 가이드
     
@@ -193,7 +198,7 @@
   - **Service Mashup**
   - **Service Router**
   - **Load Balancing Avail**
-    * [ ] Stateless  
+    - Stateless  
   - **Platform API**
   - **Auth Token**
   - **메시지규격**
