@@ -108,10 +108,8 @@
   - **UI Component Design**
     - [ ] 구성 및 디자인 가이드
     
-  - **UX Behavior Patern**    
+  - **UX Behavior Patern*    
     - [ ] 사용자 경험 조작 동선
-    
-    
   
 ### 주요형태
   - **WebApp (Cross Browser App)**
@@ -191,7 +189,7 @@
   
 ---  
 
-## BackEnd  (비지니스 서비스)
+## BackEnd  (비지니스 서비스) Layer
 ### 주요요건 
   - **DOCKER 컨테이너 기반**
   - **함수형 프로그래밍 패턴**
@@ -239,7 +237,7 @@
 ---    
 
 
-## Persistence (데이터 영속)
+## Persistence (데이터 영속) Layer
 ### 주요요건 
   - **Microsoft and Windows Server Familiar Platform****
   - **모델링**  
