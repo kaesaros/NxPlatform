@@ -108,7 +108,7 @@
     
     
   
-### 어플리케이션타입
+### 주요형태
   - **WebApp (Cross Browser App)**
     - [ ] C# ASP.NET WebForm
     - [ ] C# ASP.NET MVC 
@@ -129,7 +129,7 @@
     - [ ] C# Console
 
     
-### Qualify  & Secure
+### 필수산출물
   - **Coding Pattern**   
     - Do & Not Do
   - **Naming Convention**
@@ -140,197 +140,271 @@
 ---
 
 ## FrontEnd (Presentation Controller) Layer
-### 공통요건  
-  * #### External GateWay 서비스
-    * [ ] Load Balancing Avail
-  * #### Session
-    * [ ] Stateless
-    * [ ] State full
-  * #### Auth Token
-  * #### Message Format
-    * [ ] JSON
-    * [ ] XML
-    * [ ] Protocol buffer
-    * [ ] Message Pack
-    * [ ] Binary Stream
+### 주요요건  
+  - **DOCKER 컨테이너 기반**
+  - **함수형 프로그래밍 패턴**
+  - **External GateWay 서비스**
+    - Load Balancing Avail
+    - Stateless
+  - **Auth Token**
+  - **메시지규격**
+    - POCO & DataSet
+
+  - **메시지전송포맷**    
+    - [ ] JSON
+    - [ ] Protocol buffer
+    - [ ] Binary Stream
     
-### 공통구성
-   * Data Access Execution
-   * Business Logic  Execution
-   * Playbook Execution
+  - **메시지전송프로토콜**    
+    - HTTP RESTFul
+    
+  - **메시지전송채널**        
+    - HTTPS    
+  - **디버깅 및 추적 방안**  
+  - **Unit Test **         
+  
+### 주요구성요소
+  - Data Access Execution
+  - Business Logic  Execution
+  - Playbook Execution
 
-### 컨트롤러타입
-  * #### C# Application Controller
-  * #### Nexacro Controller
-  * #### WebSquare Controller
+### 주요형태
+  - [] **C# Application Controller**
+  - [] **Nexacro Controller**
+  - [] **WebSquare Controller**
 
-### Code Qualify  & Secure
-  * [ ] Contoller API Unit Test
-  * [ ] Coding Pattern   
-  * [ ] Naming Convention  
-  * [ ] Secure Coding 
-  * [ ] Do & Not Do
+### 필수산출물
+  - **Coding Pattern**   
+    - Do & Not Do
+  - **Naming Convention**
+    - Do & Not Do
+  - **Secure Coding** 
+    - Do & Not Do 
 
   
 ---  
 
 ## BackEnd  (비지니스 서비스)
-### 공통요건 
-  * DOCKER 컨테이너 기반
-  * 함수형 프로그래밍 패턴 
-  * Service Mashup
-  * Service Router
-  * Load Balancing Avail
+### 주요요건 
+  - **DOCKER 컨테이너 기반**
+  - **함수형 프로그래밍 패턴**
+  - **Service Mashup**
+  - **Service Router**
+  - **Load Balancing Avail**
     * [ ] Stateless  
-  * Platform API  
-  * Auth Token
-  * 메시지
-    * 직렬화타입
-  * 메시지전송타입
-  * 메시지전송프로토콜
-  * 디버깅 및 추적 방안
+  - **Platform API**
+  - **Auth Token**
+  - **메시지규격**
+    - POCO & DataSet
+  - **메시지전송포맷**
+    - Protocol Buffer         
+  - **메시지전송프로토콜**
+    - SOAP
+  - **메시지전송채널**
+    - NET.TCP BINARY    
+  - **디버깅 및 추적 방안**  
+  - **Unit Test **         
 
-### 공통구성
-*  #### Role & Permission 
+### 주요구성요소
+  - **Core Service**    
+    - Role & Permission
+  - **DomainBiz Service**
+  - **Signal Service**
+  - **Command Service**  
+  - **Playbook Service**   
+    - Center Agent
+    - Pylon Agent
 
-### 서비스타입
-*  #### WCF API
-*  #### gRPC API
-*  #### SignalR API
+### 주요형태
+  - **WCF**
+  - **ASP.NET WebAPI**
+  - **ASP.NET Core gRPC**
+  - **ASP.NET SignalR**  
 
-  
+### 필수산출물
+  - **Coding Pattern**   
+    - Do & Not Do
+  - **Naming Convention**
+    - Do & Not Do
+  - **Secure Coding** 
+    - Do & Not Do 
 
-### Code Qualify  & Secure
-  * [ ] Core API Unit Test
-  * [ ] Coding Pattern   
-  * [ ] Naming Convention  
-  * [ ] Secure Coding 
-  * [ ] Do & Not Do
-  
----  
-  
+---    
 
 
 ## Persistence (데이터 영속)
-### 공통요건 
-* #### Microsoft and Windows Server Familiar Platform
-* #### 업무 모델 정의
-* #### Object Convention  정의
-* #### Query Pattern & Templete
-* #### Query  UseCase
-* #### 이중화 방안
-* #### 디버깅 및 추적 방안
-* 
-### 공통구성
-*  ### 모델링
-    * #### 관계형 
-        * [ ] 업무 모델링
-    * #### 도큐먼트형
-        * [ ] 처리로그 모델링
-    * #### 키밸류형
-        * [ ] 토큰 모델링
-        *
-*  #### 핵심서비스
-    *  [ ]  ID Generator
-    *  [ ]  Dialog
-    *  [ ]  Role & Permission  
-    *  [ ]  Tenant / Subsidiary / Dept / Emp
-    *  [ ]  User & UserGroup
-    *  [ ]  System 
-    *  [ ]  Application
-    *  [ ]  Navigation
+### 주요요건 
+  - **Microsoft and Windows Server Familiar Platform****
+  - **모델링**  
+  - **파일처리**      
+  - **이중화**
+  - **성능 검증안**  
+  - **디버깅 및 추적**
   
-### 저장소타입
-* ####  RDBMS
-    * [ ] MSSQL 2019 on Windows
-* ####  NOSQL
-    * [ ] MongoDB on Windows
-    * [ ] REDIS on Windows
-* #### STORAGE  
-    * [ ] NAS
-    * [ ] SAN
-    * [ ] SMB
-    * [ ] iSCSI
 
+### 주요구성요소  
+  - **관계형 데이터베이스**
+    - [ ] 업무 도메인 모델링
+    - [상세보기]()   
+  - **도큐먼트형 데이터베스**
+    - [ ] 처리 로그 모델링
+      - [상세보기]()   
+  - **인메모리키밸류 데이터베이스**
+      - [ ] 토큰 모델링
+      - [상세보기]()   
+        
+  - **필수제공인프라서비스**
+    - ID Generator
+    - Dialog
+    - Role & Permission  
+    - Tenant / Subsidiary / Dept / Emp
+    - User & UserGroup
+    - System 
+    - Application
+    - Navigation   
+  
+  
+### 주요형태
+  - **RDBMS**
+    - [ ] MSSQL 2019 on Windows
+  - **NOSQL**
+    - [ ] MongoDB on Windows
+    - [ ] REDIS on Windows
+  - **STORAGE**  
+    - [ ] NAS
+    - [ ] SAN
+    - [ ] SMB
+    - [ ] iSCSI
+
+### 필수산출물
+  - **업무 모델 정의**
+  - **Object Convention 정의**
+  - **Query Pattern & Templete**
+  - **Query  UseCase**
+  
 ---
 
-## Business Process  Playbook ( Coded & Play 방식 업무 처리)
-### 공통요건 
-    * 함수형 프로그래밍
+# NxPlatform Core Service
+
+## Common Service
+### 주요요건 
+### 주요구성요소 
+### 주요형태
+### 필수산출물
+
+---  
+
+## Common Adpator
+### 주요요건 
+### 주요구성요소 
+### 주요형태
+### 필수산출물
+
+---  
+
+## Business Process Playbook ( Coded & Play 방식 업무 처리)
+### 주요요건 
+  * 함수형 프로그래밍
     
+### 주요구성요소
+  * [ ] Process Mesh
 
-### 공통구성
-    * [ ] Process Mesh
+### 주요형태
+  * DataAccess
+  * Business Process 
+  * CLI / API / UI Execute
 
-### 플레이북타입
-    * DataAccess
-    * Business Process 
-    * CLI / API / UI Execute
-
-### Code Qualify  & Secure
+### 필수산출물
   * [ ] Unit Test
   * [ ] Coding Pattern   
   * [ ] Naming Convention  
   * [ ] Secure Coding 
   * [ ] Do & Not Do
   
+---
   
-## RealTimeMessageQue (실 이벤트 메시지 교환)
-### 공통요건 
-* #### BroadCast  
-* #### Bi-Direction
-### 공통구성
+## Common Adpator
+### 주요요건 
+### 주요구성요소 
+### 주요형태
+### 필수산출물
 
-### 메시지큐타입
-* #### SignalR
-### Code Qualify  & Secure
-
+---  
   
-### Code Qualify  & Secure
-  * [ ] Core API Unit Test
-  * [ ] Coding Pattern   
-  * [ ] Naming Convention  
-  * [ ] Secure Coding 
-  * [ ] Do & Not Do
-  
+## RealTime MessageQue (실 이벤트 메시지 교환)
+### 주요요건 
+  - **BroadCast**
+  - **Bi-Direction**
+### 주요구성요소 
+### 주요형태
+  - **SignalR**
+### 필수산출물
 
 ---
 
 ## BatchJob  (배치 업무 처리)
-  ### SSIS
-  ### 작업등록  
-  ### 스케쥴링  
-  ### 큐잉  
-  ### 병렬처리
-  #### Coding Pattern   
-  #### Coding Convention  
-  #### Secure Coding Guide  
-  #### Do / Not Do Guide   
+### 주요요건 
+  - **스케쥴링**
+  - **큐잉**  
+  - **병렬처리**
+  
+### 주요구성요소 
+  - **작업등록**  
+  - **작업모니터링**
+  - **작업리포트**
+  
+### 주요형태  
+  - **SSIS**
+  
+### 필수산출물
 
 ---
 
-## Interface (인터페이스)
-  ### EAI (SolutionName)  
-  ### PEAR
-*  #### SAP RFC
-*  #### DB 
-*  #### WebService
-*  #### WebApi
+##  Interface (연계 인터페이스)
+### 주요요건 
+  - 기도입 EAI 활용 
+  
+### 주요구성요소 
+  - **Pre-Processor**
+  - **In Processor**
+  - **Post-Proccesser**
+  - **Logging / Debugging / Monitoring**
 
- ###  BATCH / ONLINE
- ### SYNC / ASYNC
+### 주요형태
+  - **동작주기**
+    - BATCH / ONLINE
+    
+  - ** 처리방식**
+    - SYNC / ASYNC
 
+  - ** 호출방식**
+    - DB to DB
+    - DB to RFC
+    - DB to API (SOAP / REST) 
+
+  - ** 트랜젝션**
+  
+### 필수산출물
  
 ---
 
 ## 리포팅 서비스 
+### 주요요건 
+  - SSRS  혹은 기도입 리포트 제품 활용 
+### 주요구성요소 
+### 주요형태
+### 필수산출물
 
 ---
 
 ## CI/CD Automation 
+### 주요요건 
+  - JENKINS  혹은 기도입 제품 활용 
+### 주요구성요소 
+  - **CLIENT 빌드/배포자동화**
+  - **FRONT-END 빌드/배포자동화**
+  - **BACK-END 빌드/배포자동화**  
+### 주요형태
+### 필수산출물
 
-   
 
-
-
-*  [ ] VIEW 삽입\
