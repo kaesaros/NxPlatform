@@ -1,5 +1,5 @@
 
-# NxPlatform 
+# NxPlatform
 **Next .Net Platform**
 
 ## .Net Framework 버전 호환
@@ -53,7 +53,7 @@
         - SSL/TLS1.3 적용
         - 시큐어코딩/모의해킹 대응     
 ---
-# NxPlatform Layer 
+# NxPlatform Layer  Requiment
 ## Client (Presentation / Bot App) Layer
 ### 주요요건  
    - **인증 및 자격증명**
