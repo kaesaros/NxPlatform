@@ -65,7 +65,7 @@
       - 인증토큰 유지
       
    - **UI 프레임워크**
-     - VIEW 삽입
+     - PROGRAM DOSSIER 삽입
      - URL REWRITE
      - PARAMETER INJECTION     
      - [상세보기]()
@@ -142,41 +142,50 @@
     
 ---
 
-## FrontEnd (Presentation Controller) Layer
+## FrontEnd (Presentation Controller / GateWay) Layer
 ### 주요요건  
-  - **DOCKER 컨테이너 기반**
-  - **함수형 프로그래밍 패턴**
+  - **DOCKER Container**  
+  
+  - **인증 및 자격증명**  
+  
   - **External GateWay 서비스**
     - Load Balancing Avail
     - Stateless
+    - Service Aggregate
+    
   - **Auth Token**
+  
   - **메시지규격**
     - POCO & DataSet
 
   - **메시지전송포맷**    
+    - [ ] XML
     - [ ] JSON
-    - [ ] Protocol buffer
-    - [ ] Binary Stream
+    - [ ] Protobuf
+    - [ ] Binary
     
   - **메시지전송프로토콜**    
-    - HTTP RESTFul
+    - WEB-REST
     
   - **메시지전송채널**        
-    - HTTPS    
-  - **디버깅 및 추적 방안**  
+    - HTTPS
+    
+  - **디버깅 및 추적 방안**
+  
   - **Unit Test**         
   
 ### 주요구성요소
-  - Data Access Execution
-  - Business Logic  Execution
-  - Playbook Execution
+  - Data Access Aggregation
+  - Static Business Logic Aggregation
+  - Dynamic Playbook Aggregation
 
 ### 주요형태
-  - **C# Application Controller**
+  - **C# Client Controller**
+  - **C# Service Gateway**
   
   - **기타**
     - **Nexacro Controller**
-    - **WebSquare Controller**
+    - ~**WebSquare Controller**~ 계획없음
 
 ### 필수산출물
   - **Coding Pattern**   
