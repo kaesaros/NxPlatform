@@ -110,6 +110,23 @@
     
   - **UX Behavior Patern*    
     - [ ] 사용자 경험 조작 동선
+    
+  - **DEVOPS TOOL**
+    - DataAccess Management Tool
+      - Grouping 
+      - Editing
+      - Running
+      - Debugging
+      - Watching
+    - PlayBook Management Tool
+      - Grouping 
+      - Editing
+      - Running
+      - Debugging
+      - Watching
+      
+    - EventSignal Definition Tool
+    
   
 ### 주요형태
   - **WebApp (Cross Browser App)**
@@ -162,10 +179,7 @@
     - [ ] XML
     - [ ] JSON
     - [ ] Protobuf
-    - [ ] Binary
-    
-  - **메시지전송프로토콜**    
-    - WEB-REST
+    - [ ] Binary  
     
   - **메시지전송채널**        
     - HTTPS
@@ -211,9 +225,7 @@
   - **메시지규격**
     - POCO & DataSet
   - **메시지전송포맷**
-    - Protocol Buffer         
-  - **메시지전송프로토콜**
-    - SOAP
+    - ProtoBuf
   - **메시지전송채널**
     - NET.TCP BINARY    
   - **디버깅 및 추적 방안**  
@@ -361,6 +373,7 @@
 
 ---
 
+
 ##  Interface (연계 인터페이스)
 ### 주요요건 
   - 기도입 EAI 활용 
@@ -394,7 +407,7 @@
 ### 주요구성요소 
 ### 주요형태
     
-
+---
 ---
 
 # NxPlatform DEVOPS
@@ -419,15 +432,81 @@
 ## CI/CD Automation 
 ### 주요요건 
   - JENKINS  혹은 기도입 제품 활용 
+  
 ### 주요구성요소 
   - **CLIENT 빌드/배포자동화**
   - **FRONT-END 빌드/배포자동화**
   - **BACK-END 빌드/배포자동화**  
+  
 ### 주요형태
 
 ---
-
+---
 # NxPlatform 아키텍처
+## 아키텍처 기술 문서
+  - **Database Schemas**: this is very useful for quickly understanding the relation between many entities of your software.
+  - **Software Architecture Schemas**: which explains how different parts of your software interact together.
+  - **Sequence Diagram**: it displays the successive stages of a complex flow
+  - **Technical decision logs**
+
+---
+---
+# NxPlatform 코어 제공 비지니스
+## 레거시시스템(EAI 연동) 마이크로서비스
+  - FI RFC 
+  - EWF  
+  - HR 
+
+## 인증/자격증명 마이크로서비스
+  - LDAP, SSO, TOKEN 
+  - ROLE, AUTH, PERM
+
+## 인사/조직정보 연동
+  - 실시간 / 배치 
+  - 처리 로그 
+  - 동적 역할 / 그룹  
+
+
+## 어플리케이션 런처
+  - 윈도우 
+  - 웹 
+  - 모바일
+
+### 프로그램등록관리
+  - 메뉴네비게이션관리
+
+### 역할관리
+  - 고정역할 / 동적역할
+  
+### 네비게이션 제공 권한
+  - 프로그램 조회/사용 권한
+
+### 사용자관리
+  - 인사변동자 역할/권한 자동 인수/인계/회수
+
+### 사용자그룹관리
+  - 고정사용자그룹 / 동적사용자그룹
+
+### 화면도움말
+  - 온라인문서뷰어
+
+### 파일업로드
+  - 파일 라이프사이클 관리
+
+### 파일다운로드
+  - 파일다운로드통제
+
+### 시스템활용현황
+  - 업무별 접속 / 사용패턴  
+
+## 처리업무별 화면패턴코드
+  - 그리드
+  - 탭
+  - 폼
+
+
+
+
 
 
 
