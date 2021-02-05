@@ -1,3 +1,19 @@
+WPF 플레이북코딩 에디터 
+Actipro Software 
+Syncfution 탈락 :: 한글지원 안됨
+
+
+DEVEXPRESS  : 깔금 입력 컨트롤 등 컨트롤 풍성  깔금 / 무거울 듯.
+
+TELERIK : 어중간하게 무난 
+    다이어그램 
+
+C1          : 그리드 
+Grape       : 스프레드만 
+
+
+
+
 
 가이드 
 

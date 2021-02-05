@@ -1,0 +1,73 @@
+www.NxPortrait.com - 네임스페이스 브랜드 
+
+
+    NxPortrait - R&D Area
+        BI/DW
+        SI 
+        Application Publishing & Launching 
+        Consulting
+        Tunning
+
+    
+    NxLandscape - Biz Solutions
+        NxPD  : Policy Designer
+        NxCDR : Clinical Data Research
+        NxBO  : BackOffice
+
+
+    NxPlatform - Soultion Platfrom
+        NxUXI
+            NxBlazor HybirdApp : 네이티브(IOS/Android) & 웹 하이브리드 모바일 어플리케이션 기반
+            NxNexa WebApp      : 크로스브라우저(IE/CHROME) 웹 어플리케이션 기반 
+            NxKarma WinApp     : 윈도우즈 전용  어플리케이션 기반
+        
+        NxService
+            NxController Service    : API Gateway 서비스
+            NxCore Service          : SOA / gRPC API 서비스
+            NxCommand Service       : PlayBook PlayCode Caller
+            NxSignalService         : Realtime Message Handler
+            NxCepService            : 복합 이벤트 프로세스 처리 대응 서비스
+            NxLogListener Service   : 시스로그수신 서비스
+
+        NxAdaptorAgent
+            NxCenterAgent           : Parellel Playbook, PlayCode 처리 에이전트
+            NxPylonAgent            : Robot Playbook 수행 에이전트
+            NxSentinel              : 수집 및 원격 수행 에이전트
+            
+        NxAdaptor
+            NxDataAccessAdaptor     : DB 데이터 처리 아답터
+            NxRobotAdaptor          : RPA 스크립트 처리 아답터
+            NxSSHAdaptor            : SSH 쉘처리 처리 아답터
+
+
+            NetDeviceExtratorAdator  : 
+                    Secui 수집 플레이북코드 
+                    안랩 수집 플레이북코드 
+                    신규 장비 플레이북코드
+
+            NetDeviceTransformAdator  : Secui 수집 플레이북코드 
+                    Secui 변환 플레이북코드 
+                    안랩 변환 플레이북코드 
+
+                SecuiExtratorAdator       
+                SecuiTransformAdator       
+                TrusguardExtratorAdator       
+                TrusguardTransformAdator
+
+            NxHwpToHtmlAdaptor
+            NxHtmlToPocoAdaptor
+
+    
+    NxLibrary   : Platfrom Library        
+        C#, PYTHON, R, T-SQL            
+
+    NxFramework : Library Foundation
+        MicrosSoft .NET  
+        SQL Server
+        Windows-Server
+        Windows Presentaion Foundation
+        Windows Commuication Foundation
+        SignalR 
+        gRPC 
+        
+        Roslyn .NET Complier
