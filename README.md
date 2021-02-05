@@ -1,27 +1,6 @@
 
 # NxPlatform Requiment
-**Next .Net Platform**
-
-## .Net Framework 버전 호환 요건
-  * [ ] .NET FRAMEWORK 4.X ~ 4.8
-  * [ ] .NET Core 3.1
-  * [ ] .NET 5
-  
-## 인프라 요건
-  * OS   
-    * [ ] Windows Server 201X
-  * DBMS 
-    * [ ] MSSQL 201X
-  * IDE  
-    * [ ] VisualStudio 201X
-
-## 형상관리 요건
-  * GIT
-    * [ ] GITHUB 
-    * [ ] TFS
-  
-## 빌드/배포 자동화 방안
-  * JENKINS CI/CD 
+**Next Platform**
 
 ## 핵심도출과제
    - **개발생산성 확보방안**      
@@ -499,6 +478,27 @@
 
 
 
+
+## .Net Framework 버전 호환 요건
+  * [ ] .NET FRAMEWORK 4.X ~ 4.8
+  * [ ] .NET Core 3.1
+  * [ ] .NET 5
+  
+## 인프라 요건
+  * OS   
+    * [ ] Windows Server 201X
+  * DBMS 
+    * [ ] MSSQL 201X
+  * IDE  
+    * [ ] VisualStudio 201X
+
+## 형상관리 요건
+  * GIT
+    * [ ] GITHUB 
+    * [ ] TFS
+  
+## 빌드/배포 자동화 방안
+  * JENKINS CI/CD 
 
 
 
