@@ -359,15 +359,15 @@
   - **동작주기**
     - BATCH / ONLINE
     
-  - ** 처리방식**
+  - **처리방식**
     - SYNC / ASYNC
 
-  - ** 호출방식**
+  - **호출방식**
     - DB to DB
     - DB to RFC
     - DB to API (SOAP / REST) 
 
-  - ** 트랜젝션**
+  - **트랜젝션**
 
  
 ---
@@ -378,7 +378,7 @@
 ### 주요구성요소 
 ### 주요형태
     
----
+
 ---
 
 # NxPlatform DEVOPS
@@ -411,8 +411,9 @@
   
 ### 주요형태
 
+
 ---
----
+
 # NxPlatform 아키텍처
 ## 아키텍처 기술 문서
   - **Database Schemas**: this is very useful for quickly understanding the relation between many entities of your software.
@@ -420,7 +421,7 @@
   - **Sequence Diagram**: it displays the successive stages of a complex flow
   - **Technical decision logs**
 
----
+
 ---
 # NxPlatform 코어 제공 비지니스
 ## 레거시시스템(EAI 연동) 마이크로서비스
@@ -474,9 +475,6 @@
   - 그리드
   - 탭
   - 폼
-
-
-
 
 
 ## .Net Framework 버전 호환 요건
